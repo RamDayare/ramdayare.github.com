@@ -1,0 +1,148 @@
+
+
+#page-container{
+ 
+   	
+   	font-family:Tahoma;
+	background-image:url('../img/Background.jpg');
+}
+
+#baner
+{ 
+	background-image:url('../img/banner.png');
+	height:180px;
+	background-repeat: no-repeat;
+}
+#header{    
+    background: #D9D9E0;	
+	height:20px;	
+}
+
+#headline
+{
+	font-family:Tahoma;
+	font-size:14px;
+	color:Red;
+}
+#img
+{ 
+	background-image:url('../img/big.jpg');
+	background-repeat: no-repeat;
+	padding-left:190px;
+	height:360px;
+	width:20px;
+	float:left;
+	padding-bottom:20px;
+	margin-top:15px;
+}
+
+#SideBar{
+	position:relative;
+   	float:left;    
+    background: #F59DC2;		
+	height:480px;
+	width:100px;
+	display:inline;
+	text-decoration:none;	
+}
+
+#RightContent{
+	float:right;
+    background: white;	
+	width:640px;
+	height:580px;
+	position:absolute;
+	margin-top:5px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:5px;
+	margin-right:5px;	
+	margin-left:100px;
+}
+#contentText
+{
+	font-size:10px;	
+	padding-top:5px;	
+}
+
+#Footer{
+    clear:both;   
+	height:70px;
+	padding-top:5px;
+	padding-left:350px;
+	position:relative;	
+}
+#Content{
+    width:100%;	   
+	height:100%;	
+	
+}
+#site
+{ 	
+	padding-bottom:10px;
+	padding-left:85px;
+	font-family:Tahoma;
+	font-size:10px;
+	height:10px;
+	margin-top:10px;	
+}
+#menu{
+	display:inline;
+	text-decoration:none;
+	font-family:Tahoma;
+	font-size:12px;
+	color:Red;	
+}
+
+#link{
+	text-decoration: none;
+	color: blue;
+}
+.menutextMain
+{
+	float:left;
+	width:92px;
+	text-decoration:none;
+	color:blue;
+	background-color:#D9D9E0; /* #C2EBFF;*/
+	padding:0.2em 0.2em;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.menutextMain:hover
+{
+	float:left;
+	color: white;
+	background-color: #0066FF;
+	text-shadow:1px 1px #C0C0C0;
+	font-size:12px;
+	font-family:Tahoma;
+	padding:0.2em 0.6em;	
+}
+
+.menutext
+{
+    position:relative;
+	left:-30px;
+	float:left;	
+	width:70px;
+	text-decoration:none;
+	color:black;
+	background-color:#F59DC2;
+	padding:0.2em 0.6em;
+	font-size:12px;	
+	
+}
+
+.menutext:hover
+{
+	float:left;
+	color: white;
+	background-color: #E60000;	
+	text-shadow:1px 1px #C0C0C0;
+	font-size:12px;
+	font-family:Tahoma;
+	padding:0.2em 0.6em;
+}
+
