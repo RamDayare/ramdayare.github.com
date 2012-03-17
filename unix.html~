@@ -81,12 +81,12 @@
                 </div>
                 <div class="art-vmenublockcontent">
                     <div class="art-vmenublockcontent-body">
-              <ul class="art-vmenu">
+               <ul class="art-vmenu">
 	<li>
 		<a href="javascript.html"><span class="l"></span><span class="r"></span><span class="t">Javascript</span></a>
 	</li>	
 	<li>
-		<a href="htmlcss.html" class="active"><span class="l"></span><span class="r"></span><span class="t">HTML & CSS</span></a>
+		<a href="htmlcss.html"><span class="l"></span><span class="r"></span><span class="t">HTML & CSS</span></a>
 	</li>	
 	<li>
 		<a href="github.html"><span class="l"></span><span class="r"></span><span class="t">Github</span></a>
@@ -95,6 +95,8 @@
 		<a href="unix.html"><span class="l"></span><span class="r"></span><span class="t">Unix</span></a>
 	</li>	
 </ul>
+
+                
                                 		<div class="cleared"></div>
                     </div>
                 </div>
@@ -109,20 +111,58 @@
 <div class="art-post">
     <div class="art-post-body">
 <div class="art-post-inner art-article">
-                              
+                               
                 <div class="cleared"></div>
                                                 <div class="art-postcontent">
 
-<p><H2>Why CSS is so Important?</H2></p>
+<a name="part4">
+<p><H2>Unix "chmod" Command..</H2></p>
 <p>
 <div dir="ltr" style="text-align: left;" trbidi="on">
-<div style="font-family: Verdana,sans-serif;">
-</div>
-<div class="MsoNormal" style="font-family: Verdana,sans-serif;">
-<span style="font-size: small;"><b><span style="line-height: 115%;"></span></b></span><span style="font-size: small; line-height: 115%;"></span></div>
-<span style="font-size: small;">Cascading Style Sheets are intended to allow developers to separate content from design so that HTML could perform more of the function that it was originally based on the markup of content, without worry about the design and layout. Below given are some advantages of using CSS.<br /><br /><b style="color: #0b5394;"><span style="font-size: large;">Separating style from content</span></b><br /><br />The main benefit in CSS is that it manages to separate the style from the content on your web page. If you are used to using HTML, you'll have noticed, that HTML can do both style and content. <br /><br />With a FONT-tag, and some artistic sense, you can make a HTML page quite stylish.<br /><br />What CSS does, is that it handles the style of your web page, and lets HTML do the content. Why is this good? <br /><br />First of all, the stylish capabilities in HTML are quite limited. Secondly, with the use of an external style sheet, you are able to alter you entire site style, by only editing one single file! <br /><br />Even though trends are towards decentralization, you actually make things easier, more efficient, and save time, by centralizing your style into one single style sheet.<br /><br /><b style="color: #0b5394;"><span style="font-size: large;">Improved usability</span></b><br /><br />If you started using style sheets extensively, your site would automatically become more usable.<br /><br />By removing all BODY-attributes and font tags etc. from your HTML pages, and moving these into a nice single external style sheet, your HTML pages will turn smaller in size, and the style sheet would only need to be downloaded once and thus your site would load faster.With the use of CSS, it's also important to remember that unlike other nice web technologies (eg. JavaScript, VBScript etc.), your users do not loose functionality, if their chosen browser does not support CSS. They will simply just get plain text i.e. your raw content. </span></div>
-</p>
 
+<br />
+The Unix chmod command is used to change the access mode of a file. The following is the chmod command syntax.<br />
+<br />
+<span style="color: #0b5394;"><strong>chmod who=permissions filename</strong></span> <br />
+<br />
+<strong>Who</strong><br />
+“who” is a list of letters that specifies whom you’re going to be giving permissions to.<br />
+These permissions are specified in any order.<br />
+<strong>u</strong>&nbsp;&nbsp; -&nbsp;indicates owner of the file <br />
+<strong>g</strong>&nbsp; &nbsp;- indicates group the file belongs to. <br />
+<strong>o</strong>&nbsp;&nbsp;&nbsp;- indicates other users <br />
+<strong>a</strong>&nbsp;&nbsp; -&nbsp;all of the above <br />
+<br />
+<strong>Permissions</strong><br />
+Permissions are used to give read,write,delete and execute acess of files to different users or group.Below are the 3 permissions which user can assign on file :<br />
+<strong>r</strong>&nbsp;&nbsp;- Permission to read the file. <br />
+<strong>w</strong>&nbsp;- Permission to write or delete the file. <br />
+<strong>x</strong>&nbsp;&nbsp;-&nbsp;Permission to execute the file. <br />
+<br />
+The <span style="color: #0b5394;"><strong>ls -l</strong></span> command is used to find out the permissions on the files.<br />
+Example <br />
+<strong><span style="color: #0b5394;">$ ls -l Test.txt</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: #990000;">&nbsp;</span></strong><br />
+<span style="color: #660000;"><strong>-rw-rw-r-- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<br />
+If user wants that file Test.txt needs to be readable only to everyone then he can change the permission by using below command<br />
+<strong><span style="color: #0b5394;">$ chmod a=r Test.txt</span></strong><br />
+<span style="color: #660000;"><strong>-r--r--r-- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<br />
+If user wants that file Test.txt should have read and write access to everyone then he can change the permission by using below command<br />
+<span style="color: #0b5394;"><strong>$ chmod a=rw Test.txt</strong></span><br />
+<span style="color: #660000;"><strong>-rw-rw-rw- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<br />
+If user wants that file Test.txt should have all access to everyone then he can change the permission by using below command<br />
+<strong><span style="color: #0b5394;">$ chmod a=rwx Test.txt</span><span style="color: purple;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong><br />
+<span style="color: #660000;"><strong>-rwxrwxrwx 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<strong><span style="color: #660000;"></span></strong><br />
+<br />
+Instead of&nbsp; 'a' &nbsp;which indicates all the groups,owners and other users,we can also specify particular user or group to whome we can assign the different access permission as required.<br />
+The below command gives read write access to groups only.The owner and other users have only read permission.<br />
+<strong><span style="color: #0b5394;">$chmod g=rw Test.txt</span><span style="color: #660000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong><br />
+<span style="color: #660000;"><strong>-r--rw-r-- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span></div>
+
+</p></a>
                 </div>
                 <div class="cleared"></div>
                 </div>
@@ -222,7 +262,6 @@
 		<div class="cleared"></div>
     </div>
 </div>
-
 
                       <div class="cleared"></div>
                     </div>

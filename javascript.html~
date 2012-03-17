@@ -86,7 +86,7 @@
 		<a href="javascript.html"><span class="l"></span><span class="r"></span><span class="t">Javascript</span></a>
 	</li>	
 	<li>
-		<a href="htmlcss.html" class="active"><span class="l"></span><span class="r"></span><span class="t">HTML & CSS</span></a>
+		<a href="htmlcss.html"><span class="l"></span><span class="r"></span><span class="t">HTML & CSS</span></a>
 	</li>	
 	<li>
 		<a href="github.html"><span class="l"></span><span class="r"></span><span class="t">Github</span></a>
@@ -95,6 +95,7 @@
 		<a href="unix.html"><span class="l"></span><span class="r"></span><span class="t">Unix</span></a>
 	</li>	
 </ul>
+                
                                 		<div class="cleared"></div>
                     </div>
                 </div>
@@ -112,16 +113,37 @@
                               
                 <div class="cleared"></div>
                                                 <div class="art-postcontent">
-
-<p><H2>Why CSS is so Important?</H2></p>
+<a name="part1">
+<p><H2>Javascript Advantages & Disadvantages</H2></p>
 <p>
-<div dir="ltr" style="text-align: left;" trbidi="on">
-<div style="font-family: Verdana,sans-serif;">
-</div>
-<div class="MsoNormal" style="font-family: Verdana,sans-serif;">
-<span style="font-size: small;"><b><span style="line-height: 115%;"></span></b></span><span style="font-size: small; line-height: 115%;"></span></div>
-<span style="font-size: small;">Cascading Style Sheets are intended to allow developers to separate content from design so that HTML could perform more of the function that it was originally based on the markup of content, without worry about the design and layout. Below given are some advantages of using CSS.<br /><br /><b style="color: #0b5394;"><span style="font-size: large;">Separating style from content</span></b><br /><br />The main benefit in CSS is that it manages to separate the style from the content on your web page. If you are used to using HTML, you'll have noticed, that HTML can do both style and content. <br /><br />With a FONT-tag, and some artistic sense, you can make a HTML page quite stylish.<br /><br />What CSS does, is that it handles the style of your web page, and lets HTML do the content. Why is this good? <br /><br />First of all, the stylish capabilities in HTML are quite limited. Secondly, with the use of an external style sheet, you are able to alter you entire site style, by only editing one single file! <br /><br />Even though trends are towards decentralization, you actually make things easier, more efficient, and save time, by centralizing your style into one single style sheet.<br /><br /><b style="color: #0b5394;"><span style="font-size: large;">Improved usability</span></b><br /><br />If you started using style sheets extensively, your site would automatically become more usable.<br /><br />By removing all BODY-attributes and font tags etc. from your HTML pages, and moving these into a nice single external style sheet, your HTML pages will turn smaller in size, and the style sheet would only need to be downloaded once and thus your site would load faster.With the use of CSS, it's also important to remember that unlike other nice web technologies (eg. JavaScript, VBScript etc.), your users do not loose functionality, if their chosen browser does not support CSS. They will simply just get plain text i.e. your raw content. </span></div>
+	<div dir="ltr" style="text-align: left;" trbidi="on">
+	<br />
+	Javascript is one of the most simple, versatile and effective language used to extend functionality in websites.But like all computer languages, JavaScript has certain advantages and disadvantages.<br />
+	<br />
+	<b style="color: blue;">Advantages of JavaScript</b><br />
+	<ul style="text-align: left;">
+	<li><b>Speed :</b> Being client-side, JavaScript is very fast because any code functions can be run immediately instead of having to contact the server and wait for an answer.&nbsp;</li>
+	</ul>
+	<ul style="text-align: left;">
+	<li><b>Easy to Use :</b> JavaScript is relatively simple to learn and implement.</li>
+	</ul>
+	<ul style="text-align: left;">
+	<li><b>Versatility :</b> JavaScript plays nicely with other languages and can be used in a huge variety of applications. JavaScript can be inserted into any web page regardless of the file extension. JavaScript can also be used inside scripts written in other languages such as Perl and PHP.</li>
+	</ul>
+	<ul style="text-align: left;">
+	<li><b>Reduce Server Load</b> <b>:</b> Being client-side reduces the demand on the website server.</li>
+	</ul>
+	<br />
+	<b style="color: blue;"><span style="font-size: small;">Disadvantages of JavaScript</span></b><br />
+	<ul style="text-align: left;">
+	<li><b>Security :</b> Because the code executes on the users' computer, in some cases it can be exploited for malicious purposes. This is one reason some people choose to disable JavaScript.</li>
+	</ul>
+	<ul style="text-align: left;">
+	<li><b>Reliance on End User :</b> JavaScript is sometimes interpreted differently by different browsers. Whereas server-side scripts will always produce the same output, client-side scripts can be a little unpredictable. </li>
+	</ul>
+	<br /></div>
 </p>
+</a>
 
                 </div>
                 <div class="cleared"></div>
@@ -168,7 +190,7 @@
                 </div>
 		<div class="cleared"></div>
     </div>
-</div>
+</div> 
 <div class="art-block">
     <div class="art-block-tl"></div>
     <div class="art-block-tr"></div>
@@ -222,7 +244,6 @@
 		<div class="cleared"></div>
     </div>
 </div>
-
 
                       <div class="cleared"></div>
                     </div>
