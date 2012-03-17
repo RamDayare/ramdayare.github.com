@@ -1,14 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[]>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
 <head>
-   
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Index Page</title>
+    <title>Blog Page</title>
     <meta name="description" content="Description" />
     <meta name="keywords" content="Keywords" />
 
 
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />  
+
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </head>
@@ -44,10 +45,10 @@
 <div class="art-nav-outer">
 	<ul class="art-hmenu">
 		<li>
-			<a href="./index.html" class="active"><span class="l"></span><span class="r"></span><span class="t">Home</span></a>
+			<a href="./index.html" ><span class="l"></span><span class="r"></span><span class="t">Home</span></a>
 		</li>	
 		<li>
-			<a href="./blog.html"><span class="l"></span><span class="r"></span><span class="t">Blog</span></a>
+			<a href="./blog.html"  class="active"><span class="l"></span><span class="r"></span><span class="t">Blog</span></a>
 		</li>	
 		<li>
 			<a href="./aboutme.html"><span class="l"></span><span class="r"></span><span class="t">About me</span></a>
@@ -61,7 +62,7 @@
 <div class="cleared reset-box"></div>
 <div class="art-content-layout">
                 <div class="art-content-layout-row">
-                 <div class="art-layout-cell art-sidebar1">
+                    <div class="art-layout-cell art-sidebar1">
 <div class="art-vmenublock">
     <div class="art-vmenublock-tl"></div>
     <div class="art-vmenublock-tr"></div>
@@ -72,7 +73,7 @@
     <div class="art-vmenublock-cl"></div>
     <div class="art-vmenublock-cr"></div>
     <div class="art-vmenublock-cc"></div>
-  <div class="art-vmenublock-body">
+    <div class="art-vmenublock-body">
                 <div class="art-vmenublockheader">
                     <div class="l"></div>
                     <div class="r"></div>
@@ -80,7 +81,7 @@
                 </div>
                 <div class="art-vmenublockcontent">
                     <div class="art-vmenublockcontent-body">
- <ul class="art-vmenu">
+               <ul class="art-vmenu">
 	<li>
 		<a href="javascript.html"><span class="l"></span><span class="r"></span><span class="t">Javascript</span></a>
 	</li>	
@@ -94,14 +95,13 @@
 		<a href="unix.html"><span class="l"></span><span class="r"></span><span class="t">Unix</span></a>
 	</li>	
 </ul>
+
                 
                                 		<div class="cleared"></div>
                     </div>
                 </div>
 		<div class="cleared"></div>
-    </div> 
-	
-	
+    </div>
 </div>
 
 
@@ -111,15 +111,58 @@
 <div class="art-post">
     <div class="art-post-body">
 <div class="art-post-inner art-article">
-                                <h2 class="art-postheader">
-               
-                                </h2>
+                               
                 <div class="cleared"></div>
                                                 <div class="art-postcontent">
-<p><H2>Welcome to my </H2><img src="images/blog.png" width="80%" alt="an image" style="float:left" /></p>
 
+<a name="part4">
+<p><H2>Unix "chmod" Command..</H2></p>
+<p>
+<div dir="ltr" style="text-align: left;" trbidi="on">
 
+<br />
+The Unix chmod command is used to change the access mode of a file. The following is the chmod command syntax.<br />
+<br />
+<span style="color: #0b5394;"><strong>chmod who=permissions filename</strong></span> <br />
+<br />
+<strong>Who</strong><br />
+“who” is a list of letters that specifies whom you’re going to be giving permissions to.<br />
+These permissions are specified in any order.<br />
+<strong>u</strong>&nbsp;&nbsp; -&nbsp;indicates owner of the file <br />
+<strong>g</strong>&nbsp; &nbsp;- indicates group the file belongs to. <br />
+<strong>o</strong>&nbsp;&nbsp;&nbsp;- indicates other users <br />
+<strong>a</strong>&nbsp;&nbsp; -&nbsp;all of the above <br />
+<br />
+<strong>Permissions</strong><br />
+Permissions are used to give read,write,delete and execute acess of files to different users or group.Below are the 3 permissions which user can assign on file :<br />
+<strong>r</strong>&nbsp;&nbsp;- Permission to read the file. <br />
+<strong>w</strong>&nbsp;- Permission to write or delete the file. <br />
+<strong>x</strong>&nbsp;&nbsp;-&nbsp;Permission to execute the file. <br />
+<br />
+The <span style="color: #0b5394;"><strong>ls -l</strong></span> command is used to find out the permissions on the files.<br />
+Example <br />
+<strong><span style="color: #0b5394;">$ ls -l Test.txt</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: #990000;">&nbsp;</span></strong><br />
+<span style="color: #660000;"><strong>-rw-rw-r-- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<br />
+If user wants that file Test.txt needs to be readable only to everyone then he can change the permission by using below command<br />
+<strong><span style="color: #0b5394;">$ chmod a=r Test.txt</span></strong><br />
+<span style="color: #660000;"><strong>-r--r--r-- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<br />
+If user wants that file Test.txt should have read and write access to everyone then he can change the permission by using below command<br />
+<span style="color: #0b5394;"><strong>$ chmod a=rw Test.txt</strong></span><br />
+<span style="color: #660000;"><strong>-rw-rw-rw- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<br />
+If user wants that file Test.txt should have all access to everyone then he can change the permission by using below command<br />
+<strong><span style="color: #0b5394;">$ chmod a=rwx Test.txt</span><span style="color: purple;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong><br />
+<span style="color: #660000;"><strong>-rwxrwxrwx 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<strong><span style="color: #660000;"></span></strong><br />
+<br />
+Instead of&nbsp; 'a' &nbsp;which indicates all the groups,owners and other users,we can also specify particular user or group to whome we can assign the different access permission as required.<br />
+The below command gives read write access to groups only.The owner and other users have only read permission.<br />
+<strong><span style="color: #0b5394;">$chmod g=rw Test.txt</span><span style="color: #660000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong><br />
+<span style="color: #660000;"><strong>-r--rw-r-- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span></div>
 
+</p></a>
                 </div>
                 <div class="cleared"></div>
                 </div>
@@ -166,7 +209,18 @@
 		<div class="cleared"></div>
     </div>
 </div>
-
+<div class="art-block">
+    <div class="art-block-tl"></div>
+    <div class="art-block-tr"></div>
+    <div class="art-block-bl"></div>
+    <div class="art-block-br"></div>
+    <div class="art-block-tc"></div>
+    <div class="art-block-bc"></div>
+    <div class="art-block-cl"></div>
+    <div class="art-block-cr"></div>
+    <div class="art-block-cc"></div>
+   
+</div>
 <div class="art-block">
     <div class="art-block-tl"></div>
     <div class="art-block-tr"></div>
@@ -185,13 +239,14 @@
                 </div>
                 <div class="art-blockcontent">
                     <div class="art-blockcontent-body">
-               <div>
+                <div>
   <ul>
    <li>
       <a href="#" title="April 2012">April 2012</a>
     </li>
     <li>
       <a href="#" title="March 2012">March 2012</a>
+	  
     </li>
     <li>
       <a href="#" title="February 2012">February 2012</a>
@@ -200,19 +255,13 @@
       <a href="#" title="January 2012">January 2012</a>
     </li>    
   </ul>
-  
-</div>   
-
-          
-           		<div class="cleared"></div>
+</div>                
+                                		<div class="cleared"></div>
                     </div>
-
                 </div>
 		<div class="cleared"></div>
     </div>
-	
 </div>
-
 
                       <div class="cleared"></div>
                     </div>
@@ -227,7 +276,7 @@
                 <div class="art-footer-body">
                     <a href="#" class="art-rss-tag-icon" title="RSS"></a>
                             <div class="art-footer-text">
-                               <p></p><P>Sky is the Limit.</P>
+                                <p></p><P>Sky is the Limit.</P>
                                                             </div>
                     <div class="cleared"></div>
                 </div>
