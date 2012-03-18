@@ -80,10 +80,10 @@
                     <div class="art-vmenublockcontent-body">
               <ul class="art-vmenu">
 	<li>
-		<a href="javascript.html"><span class="l"></span><span class="r"></span><span class="t">Javascript</span></a>
+		<a href="javascript.html"  class="active"><span class="l"></span><span class="r"></span><span class="t">Javascript</span></a>
 	</li>	
 	<li>
-		<a href="htmlcss.html" class="active"><span class="l"></span><span class="r"></span><span class="t">HTML & CSS</span></a>
+		<a href="htmlcss.html"><span class="l"></span><span class="r"></span><span class="t">HTML & CSS</span></a>
 	</li>	
 	<li>
 		<a href="github.html"><span class="l"></span><span class="r"></span><span class="t">Github</span></a>
@@ -92,6 +92,7 @@
 		<a href="unix.html"><span class="l"></span><span class="r"></span><span class="t">Unix</span></a>
 	</li>	
 </ul>
+                
                                 		<div class="cleared"></div>
                     </div>
                 </div>
@@ -109,15 +110,39 @@
                               
                 <div class="cleared"></div>
                                                 <div class="art-postcontent">
-
-<p><H2>Why CSS is so Important?</H2></p>
+<a name="part1">
+<p><span style="color:black"><H2>Javascript Advantages & Disadvantages</H2></span></p>
 <p>
-<div >
-<div style="font-family: Verdana,sans-serif;">
-</div>
-
-<span style="font-size: small;">Cascading Style Sheets are intended to allow developers to separate content from design so that HTML could perform more of the function that it was originally based on the markup of content, without worry about the design and layout. Below given are some advantages of using CSS.<br /><br /><b style="color: #4A6368;"><span style="font-size: large;">Separating style from content</span></b><br /><br />The main benefit in CSS is that it manages to separate the style from the content on your web page. If you are used to using HTML, you'll have noticed, that HTML can do both style and content. <br /><br />With a FONT-tag, and some artistic sense, you can make a HTML page quite stylish.<br /><br />What CSS does, is that it handles the style of your web page, and lets HTML do the content. Why is this good? <br /><br />First of all, the stylish capabilities in HTML are quite limited. Secondly, with the use of an external style sheet, you are able to alter you entire site style, by only editing one single file! <br /><br />Even though trends are towards decentralization, you actually make things easier, more efficient, and save time, by centralizing your style into one single style sheet.<br /><br /><b style="color: #4A6368;"><span style="font-size: large;">Improved usability</span></b><br /><br />If you started using style sheets extensively, your site would automatically become more usable.<br /><br />By removing all BODY-attributes and font tags etc. from your HTML pages, and moving these into a nice single external style sheet, your HTML pages will turn smaller in size, and the style sheet would only need to be downloaded once and thus your site would load faster.With the use of CSS, it's also important to remember that unlike other nice web technologies (eg. JavaScript, VBScript etc.), your users do not loose functionality, if their chosen browser does not support CSS. They will simply just get plain text i.e. your raw content. </span></div>
+	<div >
+	<br />
+	<span style="color:black">
+	Javascript is one of the most simple, versatile and effective language used to extend functionality in websites.But like all computer languages, JavaScript has certain advantages and disadvantages.<br />
+	<br />
+	<span style="color:black"><h3>Advantages of JavaScript</h3></span><br />
+	<ul style="text-align: left;">
+	<li><b>Speed :</b> Being client-side, JavaScript is very fast because any code functions can be run immediately instead of having to contact the server and wait for an answer.&nbsp;</li>
+	</ul>
+	<ul style="text-align: left;">
+	<li><b>Easy to Use :</b> JavaScript is relatively simple to learn and implement.</li>
+	</ul>
+	<ul style="text-align: left;">
+	<li><b>Versatility :</b> JavaScript plays nicely with other languages and can be used in a huge variety of applications. JavaScript can be inserted into any web page regardless of the file extension. JavaScript can also be used inside scripts written in other languages such as Perl and PHP.</li>
+	</ul>
+	<ul style="text-align: left;">
+	<li><b>Reduce Server Load</b> <b>:</b> Being client-side reduces the demand on the website server.</li>
+	</ul>
+	<br />
+	<b ><span style="color:black"><h3>Disadvantages of JavaScript</h3></span></b><br />
+	<ul style="text-align: left;">
+	<li><b>Security :</b> Because the code executes on the users' computer, in some cases it can be exploited for malicious purposes. This is one reason some people choose to disable JavaScript.</li>
+	</ul>
+	<ul style="text-align: left;">
+	<li><b>Reliance on End User :</b> JavaScript is sometimes interpreted differently by different browsers. Whereas server-side scripts will always produce the same output, client-side scripts can be a little unpredictable. </li>
+	</ul>
+</span>
+	<br /></div>
 </p>
+</a>
 
                 </div>
                 <div class="cleared"></div>
@@ -125,14 +150,58 @@
 
 		<div class="cleared"></div>
     </div>
-<div class="js-kit-comments" backwards="yes" paginate="10"></div>	
-			<script src="http://js-kit.com/comments.js"></script>	
 </div>
 
                       <div class="cleared"></div>
                     </div>
                     <div class="art-layout-cell art-sidebar2">
+<!--<div class="art-block">
+    <div class="art-block-tl"></div>
+    <div class="art-block-tr"></div>
+    <div class="art-block-bl"></div>
+    <div class="art-block-br"></div>
+    <div class="art-block-tc"></div>
+    <div class="art-block-bc"></div>
+    <div class="art-block-cl"></div>
+    <div class="art-block-cr"></div>
+    <div class="art-block-cc"></div>
+    <div class="art-block-body">
+                <div class="art-blockheader">
+                    <div class="l"></div>
+                    <div class="r"></div>
+                    <h3 class="t">Search</h3>
+                </div>
+                <div class="art-blockcontent">
+                    <div class="art-blockcontent-body">
+                <div>
+  <form method="get" name="searchform" action="#">
+    <input type="text" value="" name="s" style="width: 95%;" />
+     <span class="art-button-wrapper">
+      <span class="art-button-l"> </span>
+      <span class="art-button-r"> </span>
+      <a class="art-button" href="javascript:void(0)">Search</a>
+    </span> 
 
+  </form>
+</div>                
+                                		<div class="cleared"></div>
+                    </div>
+                </div>
+		<div class="cleared"></div>
+    </div>
+</div> 
+<div class="art-block">
+    <div class="art-block-tl"></div>
+    <div class="art-block-tr"></div>
+    <div class="art-block-bl"></div>
+    <div class="art-block-br"></div>
+    <div class="art-block-tc"></div>
+    <div class="art-block-bc"></div>
+    <div class="art-block-cl"></div>
+    <div class="art-block-cr"></div>
+    <div class="art-block-cc"></div>
+   
+</div>-->
 </br>
 <div style='position:relative; top: 0px; right: -10px;'><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Framdayare.github.com/github.html%2F&send=false&layout=button_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:30px;" allowtransparency="true"></iframe>
 </div>
@@ -156,7 +225,7 @@
                 <div class="art-blockcontent">
                     <div class="art-blockcontent-body">
                 <div>
-  <ul>
+ <ul>
    <li>
       <a href="javascript.html" title="April 2012">April 2012</a>
     </li>
@@ -178,7 +247,6 @@
 		<div class="cleared"></div>
     </div>
 </div>
-
 
                       <div class="cleared"></div>
                     </div>
