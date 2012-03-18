@@ -1792,7 +1792,7 @@ h2.art-postheader a:hover,  h2.art-postheader a.hovered
 .art-rss-tag-icon
 {
   display: block;
-  background-image: url('images/rssicon.png');
+ /* background-image: url('images/rssicon.png');*/
   background-position: center right;
   background-repeat: no-repeat;
   height: 30px;
