@@ -86,7 +86,7 @@
 		<a href="javascript.html"><span class="l"></span><span class="r"></span><span class="t">Javascript</span></a>
 	</li>	
 	<li>
-		<a href="htmlcss.html" class="active"><span class="l"></span><span class="r"></span><span class="t">HTML & CSS</span></a>
+		<a href="htmlcss.html"><span class="l"></span><span class="r"></span><span class="t">HTML & CSS</span></a>
 	</li>	
 	<li>
 		<a href="github.html"><span class="l"></span><span class="r"></span><span class="t">Github</span></a>
@@ -116,7 +116,7 @@
 <a name="part1">
 <p><H2>Javascript Advantages & Disadvantages</H2></p>
 <p>
-	<div dir="ltr" style="text-align: left;" trbidi="on">
+	<div dir="ltr" style="text-align: left;" trbidi="on" >
 	<br />
 	Javascript is one of the most simple, versatile and effective language used to extend functionality in websites.But like all computer languages, JavaScript has certain advantages and disadvantages.<br />
 	<br />
