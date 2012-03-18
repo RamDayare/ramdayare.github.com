@@ -83,7 +83,7 @@
                     <div class="art-vmenublockcontent-body">
               <ul class="art-vmenu">
 	<li>
-		<a href="javascript.html"><span class="l"></span><span class="r"></span><span class="t">Javascript</span></a>
+		<a href="javascript.html"  class="active"><span class="l"></span><span class="r"></span><span class="t">Javascript</span></a>
 	</li>	
 	<li>
 		<a href="htmlcss.html"><span class="l"></span><span class="r"></span><span class="t">HTML & CSS</span></a>
@@ -120,7 +120,7 @@
 	<br />
 	Javascript is one of the most simple, versatile and effective language used to extend functionality in websites.But like all computer languages, JavaScript has certain advantages and disadvantages.<br />
 	<br />
-	<b style="color: blue;">Advantages of JavaScript</b><br />
+	<b style="color:lightblue;">Advantages of JavaScript</b><br />
 	<ul style="text-align: left;">
 	<li><b>Speed :</b> Being client-side, JavaScript is very fast because any code functions can be run immediately instead of having to contact the server and wait for an answer.&nbsp;</li>
 	</ul>
@@ -134,7 +134,7 @@
 	<li><b>Reduce Server Load</b> <b>:</b> Being client-side reduces the demand on the website server.</li>
 	</ul>
 	<br />
-	<b style="color: blue;"><span style="font-size: small;">Disadvantages of JavaScript</span></b><br />
+	<b style="color:lightblue;"><span style="font-size: small;">Disadvantages of JavaScript</span></b><br />
 	<ul style="text-align: left;">
 	<li><b>Security :</b> Because the code executes on the users' computer, in some cases it can be exploited for malicious purposes. This is one reason some people choose to disable JavaScript.</li>
 	</ul>
@@ -203,6 +203,10 @@
     <div class="art-block-cc"></div>
    
 </div>-->
+</br>
+<div style='position:relative; top: 0px; right: -10px;'><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Framdayare.github.com/github.html%2F&send=false&layout=button_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:30px;" allowtransparency="true"></iframe>
+</div>
+</br>
 <div class="art-block">
     <div class="art-block-tl"></div>
     <div class="art-block-tr"></div>
@@ -249,6 +253,8 @@
                     </div>
                 </div>
             </div>
+<div class="js-kit-comments" backwards="yes" paginate="10"></div>	
+			<script src="http://js-kit.com/comments.js"></script>	
             <div class="cleared"></div>
             <div class="art-footer">
                 <div class="art-footer-t"></div>
