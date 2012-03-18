@@ -46,10 +46,7 @@
 	<ul class="art-hmenu">
 		<li>
 			<a href="./index.html" ><span class="l"></span><span class="r"></span><span class="t">Home</span></a>
-		</li>	
-		<li>
-			<a href="./blog.html"  class="active"><span class="l"></span><span class="r"></span><span class="t">Blog</span></a>
-		</li>	
+		</li>			
 		<li>
 			<a href="./aboutme.html"><span class="l"></span><span class="r"></span><span class="t">About me</span></a>
 		</li>	
@@ -118,12 +115,12 @@
 <a name="part4">
 <p><H2>Unix "chmod" Command..</H2></p>
 <p>
-<div dir="ltr" style="text-align: left;" trbidi="on">
+<div >
 
 <br />
 The Unix chmod command is used to change the access mode of a file. The following is the chmod command syntax.<br />
 <br />
-<span style="color: #0b5394;"><strong>chmod who=permissions filename</strong></span> <br />
+<strong>chmod who=permissions filename</strong><br />
 <br />
 <strong>Who</strong><br />
 “who” is a list of letters that specifies whom you’re going to be giving permissions to.<br />

@@ -46,10 +46,7 @@
 	<ul class="art-hmenu">
 		<li>
 			<a href="./index.html" ><span class="l"></span><span class="r"></span><span class="t">Home</span></a>
-		</li>	
-		<li>
-			<a href="./blog.html"  class="active"><span class="l"></span><span class="r"></span><span class="t">Blog</span></a>
-		</li>	
+		</li>			
 		<li>
 			<a href="./aboutme.html"><span class="l"></span><span class="r"></span><span class="t">About me</span></a>
 		</li>	
@@ -208,16 +205,16 @@ in commited or uncommited state and we want to revert those changes so.. </br><a
                 <div class="art-blockcontent">
                     <div class="art-blockcontent-body">
                 <div>
-  <ul>
+ <ul>
    <li>
-      <a href="#" title="April 2012">April 2012</a>
+      <a href="javascript.html" title="April 2012">April 2012</a>
     </li>
     <li>
-      <a href="#" title="March 2012">March 2012</a>
+      <a href="march.html" title="March 2012">March 2012</a>
 	  
     </li>
     <li>
-      <a href="#" title="February 2012">February 2012</a>
+      <a href="unix.html" title="February 2012">February 2012</a>
     </li>
     <li>
       <a href="#" title="January 2012">January 2012</a>

@@ -48,28 +48,28 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover
 .art-postcontent a
 {
   text-decoration: none;
-  color: #4A6368;
+  color: black;
 }
 
 .art-postcontent a:link
 {
   text-decoration: none;
-  color: #4A6368;
+  color: #3366ff;
 }
 
 .art-postcontent a:visited, .art-postcontent a.visited
 {
-  color: #6D6146;
+  color: #3366ff;
 }
 
 .art-postcontent  a:hover, .art-postcontent a.hover
 {
-  color: #618289;
+ /* color: #618289; */
 }
 
 .art-postcontent h1
 {
-   color: #4A6368;
+   color: black;
 margin: 21px 0;    
 }
 
@@ -80,7 +80,7 @@ margin: 21px 0;
 
 .art-postcontent h2
 {
-   color: #4A6368;
+   color: black;
 margin: 19px 0;
    font-size: 26px;    
 }
@@ -1472,6 +1472,7 @@ input, select, textarea
 {
   position: relative;
   padding: 10px;
+line-height:1.3em;
 }
 
 a img
@@ -1792,7 +1793,7 @@ h2.art-postheader a:hover,  h2.art-postheader a.hovered
 .art-rss-tag-icon
 {
   display: block;
-  background-image: url('images/rssicon.png');
+ /* background-image: url('images/rssicon.png');*/
   background-position: center right;
   background-repeat: no-repeat;
   height: 30px;

@@ -46,10 +46,7 @@
 	<ul class="art-hmenu">
 		<li>
 			<a href="./index.html" ><span class="l"></span><span class="r"></span><span class="t">Home</span></a>
-		</li>	
-		<li>
-			<a href="./blog.html"  class="active"><span class="l"></span><span class="r"></span><span class="t">Blog</span></a>
-		</li>	
+		</li>			
 		<li>
 			<a href="./aboutme.html"><span class="l"></span><span class="r"></span><span class="t">About me</span></a>
 		</li>	
@@ -114,13 +111,14 @@
                 <div class="cleared"></div>
                                                 <div class="art-postcontent">
 <a name="part1">
-<p><H2>Javascript Advantages & Disadvantages</H2></p>
+<p><span style="color:black"><H2>Javascript Advantages & Disadvantages</H2></span></p>
 <p>
-	<div dir="ltr" style="text-align: left;" trbidi="on" >
+	<div >
 	<br />
+	<span style="color:black">
 	Javascript is one of the most simple, versatile and effective language used to extend functionality in websites.But like all computer languages, JavaScript has certain advantages and disadvantages.<br />
 	<br />
-	<b>Advantages of JavaScript</b><br />
+	<span style="color:black"><h3>Advantages of JavaScript</h3></span><br />
 	<ul style="text-align: left;">
 	<li><b>Speed :</b> Being client-side, JavaScript is very fast because any code functions can be run immediately instead of having to contact the server and wait for an answer.&nbsp;</li>
 	</ul>
@@ -134,13 +132,14 @@
 	<li><b>Reduce Server Load</b> <b>:</b> Being client-side reduces the demand on the website server.</li>
 	</ul>
 	<br />
-	<b ><span >Disadvantages of JavaScript</span></b><br />
+	<b ><span style="color:black"><h3>Disadvantages of JavaScript</h3></span></b><br />
 	<ul style="text-align: left;">
 	<li><b>Security :</b> Because the code executes on the users' computer, in some cases it can be exploited for malicious purposes. This is one reason some people choose to disable JavaScript.</li>
 	</ul>
 	<ul style="text-align: left;">
 	<li><b>Reliance on End User :</b> JavaScript is sometimes interpreted differently by different browsers. Whereas server-side scripts will always produce the same output, client-side scripts can be a little unpredictable. </li>
 	</ul>
+</span>
 	<br /></div>
 </p>
 </a>
