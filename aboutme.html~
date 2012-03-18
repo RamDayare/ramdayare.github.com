@@ -46,12 +46,15 @@
 	<ul class="art-hmenu">
 		<li>
 			<a href="./index.html" ><span class="l"></span><span class="r"></span><span class="t">Home</span></a>
-		</li>			
-		<li>
-			<a href="./aboutme.html" ><span class="l"></span><span class="r"></span><span class="t">About me</span></a>
 		</li>	
 		<li>
-			<a href="./contact.html" class="active"><span class="l"></span><span class="r"></span><span class="t">Contact</span></a>
+			<a href="./blog.html"><span class="l"></span><span class="r"></span><span class="t">Blog</span></a>
+		</li>	
+		<li>
+			<a href="./aboutme.html" class="active"><span class="l"></span><span class="r"></span><span class="t">About me</span></a>
+		</li>	
+		<li>
+			<a href="./contact.html"><span class="l"></span><span class="r"></span><span class="t">Contact</span></a>
 		</li>	
 	</ul>
 </div>
@@ -112,13 +115,19 @@
                                 </h2>
                 <div class="cleared"></div>
                                                 <div class="art-postcontent">
-<p></p></br>
+<p></p>
 <p>
-
+I have around 7+ years of IT industrial experience in .Net technology.I am a confident and self-motivated person with a "let's try" attitude.</br>
+<P>
+<b>My strengths are:</b>
 <ul>
-<li>mail : ramdayare@gmail.com</li></br>
-<li>blog : <a href="http://dayareram.blogspot.in">dayareram.blogspot.in</a></li>
+<li>Client interfacing</li>
+<li>Understanding business needs</li>
+<li>Keen eye for detail</li>
+<li>Eliciting information from people</li>
 </ul>
+</p>
+ I have Worked extensively in developing Web based applications using Microsoft technologies like ASP.Net,SQL Server,WCF,Webservices and also worked on HTML,javascript,CSS.
 </p>
 
                 </div>
