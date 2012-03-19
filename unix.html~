@@ -173,9 +173,28 @@ The below command gives read write access to groups only.The owner and other use
                       <div class="cleared"></div>
                     </div>
                     <div class="art-layout-cell art-sidebar2">
-
 </br>
-<div style='position:relative; top: 0px; right: -10px;'><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Framdayare.github.com/github.html%2F&send=false&layout=button_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:30px;" allowtransparency="true"></iframe>
+<div style='position:relative; top: 0px; right: -10px;'>
+				<script type="text/javascript">
+					function makeArray() {
+					for (i = 0; i<makeArray.arguments.length; i++)
+					this[i + 1] = makeArray.arguments[i];
+					}
+
+					var months = new makeArray('January','February','March','April','May',
+					'June','July','August','September','October','November','December');
+					var date = new Date();
+					var day = date.getDate();
+					var month = date.getMonth() + 1;
+					var yy = date.getYear();
+					var year = (yy < 1000) ? yy + 1900 : yy;
+
+					document.write("<B>" +day + " " + months[month] + " " + year +"</B>");
+			</script>
+			</div>
+</br>
+</br>
+<div style='position:relative; top: 0px; right: -10px;'><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Framdayare.github.com/unix.html%2F&send=false&layout=button_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:30px;" allowtransparency="true"></iframe>
 </div>
 </br>
 <div class="art-block">

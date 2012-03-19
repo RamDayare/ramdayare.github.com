@@ -48,10 +48,10 @@
 			<a href="./index.html" ><span class="l"></span><span class="r"></span><span class="t">Home</span></a>
 		</li>			
 		<li>
-			<a href="./aboutme.html" ><span class="l"></span><span class="r"></span><span class="t">About me</span></a>
+			<a href="./aboutme.html" class="active"><span class="l"></span><span class="r"></span><span class="t">About me</span></a>
 		</li>	
 		<li>
-			<a href="./contact.html" class="active"><span class="l"></span><span class="r"></span><span class="t">Contact</span></a>
+			<a href="./contact.html"><span class="l"></span><span class="r"></span><span class="t">Contact</span></a>
 		</li>	
 	</ul>
 </div>
@@ -112,13 +112,19 @@
                                 </h2>
                 <div class="cleared"></div>
                                                 <div class="art-postcontent">
-<p></p></br>
+<p></p>
 <p>
-
+I have around 7+ years of IT industrial experience in .Net technology.I am a confident and self-motivated person with a "let's try" attitude.</br>
+<P>
+<b>My strengths are:</b>
 <ul>
-<li>mail : ramdayare@gmail.com</li></br>
-<li>blog : <a href="http://dayareram.blogspot.in" target="new">dayareram.blogspot.in</a></li>
+<li>Client interfacing</li>
+<li>Understanding business needs</li>
+<li>Keen eye for detail</li>
+<li>Eliciting information from people</li>
 </ul>
+</p>
+ I have Worked extensively in developing Web based applications using Microsoft technologies like ASP.Net,SQL Server,WCF,Webservices and also worked on HTML,javascript,CSS.
 </p>
 
                 </div>
@@ -132,7 +138,53 @@
                       <div class="cleared"></div>
                     </div>
                     <div class="art-layout-cell art-sidebar2">
+<!--<div class="art-block">
+    <div class="art-block-tl"></div>
+    <div class="art-block-tr"></div>
+    <div class="art-block-bl"></div>
+    <div class="art-block-br"></div>
+    <div class="art-block-tc"></div>
+    <div class="art-block-bc"></div>
+    <div class="art-block-cl"></div>
+    <div class="art-block-cr"></div>
+    <div class="art-block-cc"></div>
+    <div class="art-block-body">
+                <div class="art-blockheader">
+                    <div class="l"></div>
+                    <div class="r"></div>
+                    <h3 class="t">Search</h3>
+                </div>
+                <div class="art-blockcontent">
+                    <div class="art-blockcontent-body">
+                <div>
+  <form method="get" name="searchform" action="#">
+    <input type="text" value="" name="s" style="width: 95%;" />
+     <span class="art-button-wrapper">
+      <span class="art-button-l"> </span>
+      <span class="art-button-r"> </span>
+      <a class="art-button" href="javascript:void(0)">Search</a>
+    </span> 
 
+  </form>
+</div>                
+                                		<div class="cleared"></div>
+                    </div>
+                </div>
+		<div class="cleared"></div>
+    </div>
+</div>
+<div class="art-block">
+    <div class="art-block-tl"></div>
+    <div class="art-block-tr"></div>
+    <div class="art-block-bl"></div>
+    <div class="art-block-br"></div>
+    <div class="art-block-tc"></div>
+    <div class="art-block-bc"></div>
+    <div class="art-block-cl"></div>
+    <div class="art-block-cr"></div>
+    <div class="art-block-cc"></div>
+   
+</div>-->
 <div class="art-block">
     <div class="art-block-tl"></div>
     <div class="art-block-tr"></div>
@@ -152,7 +204,7 @@
                 <div class="art-blockcontent">
                     <div class="art-blockcontent-body">
                 <div>
-  <ul>
+<ul>
    <li>
       <a href="javascript.html" title="April 2012">April 2012</a>
     </li>
