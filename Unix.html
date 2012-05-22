@@ -1,0 +1,53 @@
+<html>
+<body>
+
+<p><H2>Unix "chmod" Command..</H2></p>
+<p>
+<div >
+
+<br />
+The Unix chmod command is used to change the access mode of a file. The following is the chmod command syntax.<br />
+<br />
+<strong>chmod who=permissions filename</strong><br />
+<br />
+<strong>Who</strong><br />
+“who” is a list of letters that specifies whom you’re going to be giving permissions to.<br />
+These permissions are specified in any order.<br />
+<strong>u</strong>&nbsp;&nbsp; -&nbsp;indicates owner of the file <br />
+<strong>g</strong>&nbsp; &nbsp;- indicates group the file belongs to. <br />
+<strong>o</strong>&nbsp;&nbsp;&nbsp;- indicates other users <br />
+<strong>a</strong>&nbsp;&nbsp; -&nbsp;all of the above <br />
+<br />
+<strong>Permissions</strong><br />
+Permissions are used to give read,write,delete and execute acess of files to different users or group.Below are the 3 permissions which user can assign on file :<br />
+<strong>r</strong>&nbsp;&nbsp;- Permission to read the file. <br />
+<strong>w</strong>&nbsp;- Permission to write or delete the file. <br />
+<strong>x</strong>&nbsp;&nbsp;-&nbsp;Permission to execute the file. <br />
+<br />
+The <span style="color: #0b5394;"><strong>ls -l</strong></span> command is used to find out the permissions on the files.<br />
+Example <br />
+<strong><span style="color: #0b5394;">$ ls -l Test.txt</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: #990000;">&nbsp;</span></strong><br />
+<span style="color: #660000;"><strong>-rw-rw-r-- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<br />
+If user wants that file Test.txt needs to be readable only to everyone then he can change the permission by using below command<br />
+<strong><span style="color: #0b5394;">$ chmod a=r Test.txt</span></strong><br />
+<span style="color: #660000;"><strong>-r--r--r-- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<br />
+If user wants that file Test.txt should have read and write access to everyone then he can change the permission by using below command<br />
+<span style="color: #0b5394;"><strong>$ chmod a=rw Test.txt</strong></span><br />
+<span style="color: #660000;"><strong>-rw-rw-rw- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<br />
+If user wants that file Test.txt should have all access to everyone then he can change the permission by using below command<br />
+<strong><span style="color: #0b5394;">$ chmod a=rwx Test.txt</span><span style="color: purple;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong><br />
+<span style="color: #660000;"><strong>-rwxrwxrwx 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span><br />
+<strong><span style="color: #660000;"></span></strong><br />
+<br />
+Instead of&nbsp; 'a' &nbsp;which indicates all the groups,owners and other users,we can also specify particular user or group to whome we can assign the different access permission as required.<br />
+The below command gives read write access to groups only.The owner and other users have only read permission.<br />
+<strong><span style="color: #0b5394;">$chmod g=rw Test.txt</span><span style="color: #660000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong><br />
+<span style="color: #660000;"><strong>-r--rw-r-- 1 dev dev 0 2012-02-18 01:06 Test.txt</strong></span></div>
+
+</p></a>
+
+</body>
+</html>

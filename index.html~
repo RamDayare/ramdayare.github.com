@@ -140,7 +140,8 @@ in commited or uncommited state and we want to revert those changes so.. </br><a
                     </div>
                     <div class="art-layout-cell art-sidebar2">
 
-			<div>
+			</br>
+<div style='position:relative; top: 0px; right: -10px;'>
 				<script type="text/javascript">
 					function makeArray() {
 					for (i = 0; i<makeArray.arguments.length; i++)
@@ -158,6 +159,8 @@ in commited or uncommited state and we want to revert those changes so.. </br><a
 					document.write("<B>" +day + " " + months[month] + " " + year +"</B>");
 			</script>
 			</div>
+</br>
+
 <div class="art-block">
     <div class="art-block-tl"></div>
     <div class="art-block-tr"></div>
@@ -212,7 +215,7 @@ in commited or uncommited state and we want to revert those changes so.. </br><a
                 <div class="art-footer-body">
                     <a href="#" class="art-rss-tag-icon" title="RSS"></a>
                             <div class="art-footer-text">
-                                <p></p><P>Sky is the Limit.</P>
+                                <p></p><P>Success is the good fortune that comes from aspiration, desperation, perspiration and inspiration.</P>
                                                             </div>
                     <div class="cleared"></div>
                 </div>

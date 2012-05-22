@@ -45,7 +45,7 @@
 <div class="art-nav-outer">
 	<ul class="art-hmenu">
 		<li>
-			<a href="./index.html" ><span class="l"></span><span class="r"></span><span class="t">Home</span></a>
+			<a href="./index.html" class="active"><span class="l"></span><span class="r"></span><span class="t">Home</span></a>
 		</li>			
 		<li>
 			<a href="./aboutme.html"><span class="l"></span><span class="r"></span><span class="t">About me</span></a>
